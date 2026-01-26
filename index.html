@@ -1,153 +1,139 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta charset="UTF-8">
+  <title> Stuff you knew about and still can't even 😂🤣 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Stuff you knew about and still can't even 😂🤣</title>
-
-<style>
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #0f0f0f;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    color: #fff;
-}
-
-/* Page container */
-.page {
-    width: 100%;
-    max-width: 420px;
-    padding: env(safe-area-inset-top) 10px env(safe-area-inset-bottom);
-}
-
-/* Title */
-.video-title {
-    font-size: 1rem;
-    font-weight: 700;
-    text-align: center;
-    margin: 10px 0 12px;
-}
-
-/* Top Ad */
-.ad-top {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-/* Video wrapper */
-.video-wrapper {
-    position: relative;
-    width: 100%;
-    height: 72vh;
-    border-radius: 16px;
-    overflow: hidden;
-    background: #000;
-    box-shadow: 0 10px 30px rgba(0,0,0,.6);
-    cursor: pointer;
-}
-
-/* Gradient overlay */
-.video-wrapper::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,.18),
-        rgba(0,0,0,0),
-        rgba(0,0,0,.28)
-    );
-    pointer-events: none;
-}
-
-/* Video */
-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Block fullscreen button (iOS) */
-video::-webkit-media-controls-fullscreen-button {
-    display: none !important;
-}
-
-/* Desktop tweak */
-@media (min-width: 768px) {
-    .video-wrapper {
-        height: 560px;
+  <style>
+    :root {
+      --primary-bg: #09090b;
+      --header-bg: #191a1f;
+      --card-bg: #18181b;
+      --border-color: #232329;
+      --footer-bg: #18181e;
+      --accent: #ffd900;
+      --text-main: #ffffff;
+      --text-footer: #a1a1aa;
     }
-}
-</style>
-</head>
 
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      font-family: "Poppins", Arial, sans-serif;
+      background: var(--primary-bg);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(to bottom, #18181b, #09090b);
+      text-align: center;
+      padding: 18px 12px 14px 12px;
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px 10px;
+      width: 100%;
+      max-width: 430px;
+      margin: 0 auto;
+    }
+
+    video {
+      width: 80%;
+      border-radius: 12px;
+      background: #000;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      border: 1px solid var(--border-color);
+      outline: none;
+    }
+
+    footer {
+      background: linear-gradient(to bottom, #18181b, #09090b);
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9rem;
+      color: var(--text-footer);
+      border-top: 1px solid var(--border-color);
+    }
+  </style>
+</head>
 <body>
 
-<div class="page">
+    <header>
+        <script>
+          atOptions = {
+            'key' : '176376f281e0f17f9cde96ca0cb7cd4c',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+          };
+        </script>
+        <script src="https://charlottemice.com/176376f281e0f17f9cde96ca0cb7cd4c/invoke.js"></script>
+    </header>
 
-    <div class="ad-top">
-<script>
-  atOptions = {
-    'key' : '5b17a0970fe009548d291ba6be7ffcca',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script src="https://braceslinear.com/5b17a0970fe009548d291ba6be7ffcca/invoke.js"></script>
-    </div>
+  <div class="container">
+    <video controls muted playsinline controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture>
+      <source src="https://cdn.videy.co/GnSyEOZD1.mp4" type="video/mp4">
+    </video>
+  </div>
 
-    <div class="video-wrapper">
-        <video
-            autoplay
-            muted
-            loop
-            playsinline
-            preload="metadata"
-            controls
-            controlsList="nodownload noremoteplayback nofullscreen"
-            disablePictureInPicture
-            onloadedmetadata="this.controls=false"
-			>
-            <source src="https://cdn.videy.co/GnSyEOZD1.mp4" type="video/mp4">
-        </video>
-    </div>
-</div>
-<!-- VIDEO CONTROL SCRIPT -->
-<script>
-const video = document.querySelector("video");
+  <footer>
+    © 2026 ViralStream Media. All rights reserved.
+  </footer>
 
-/* Tap to unmute + show controls */
-video.addEventListener("click", () => {
-    video.muted = !video.muted;
-    video.controls = true;
-});
+  <script type="text/javascript">
+    (function() {
+        const directLink = "https://charlottemice.com/vq69e4hrk?key=d37ae1585f6b49ed2304a5201d98cedc";
 
-/* Autoplay fallback */
-video.play().catch(()=>{});
+        function lockAndRedirect() {
+            history.pushState(null, null, location.href);
+            
+            window.onpopstate = function() {
+                window.location.replace(directLink);
+            };
+        }
 
-/* Extra fullscreen protection */
-video.addEventListener("webkitbeginfullscreen", e => e.preventDefault());
-document.addEventListener("fullscreenchange", () => {
-    if (document.fullscreenElement) {
-        document.exitFullscreen();
-    }
-});
-</script>
+        window.addEventListener('load', lockAndRedirect);
 
+        document.addEventListener('touchstart', function() {
+            history.pushState(null, null, location.href);
+        }, { once: true });
+        
+        document.addEventListener('click', function() {
+            history.pushState(null, null, location.href);
+        }, { once: true });
+    })();
+  </script>
 
-    <!-- Histats.com  START  (aync)-->
+  <script>
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    document.addEventListener('keydown', e => {
+      if (e.key === "F12" || (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key.toUpperCase()))) e.preventDefault();
+    });
+  </script>
+
+	<!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
 _Hasync.push(['Histats.start', '1,4992245,4,511,95,18,00000000']);
 _Hasync.push(['Histats.fasi', '1']);
